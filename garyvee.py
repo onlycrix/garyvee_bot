@@ -5,8 +5,8 @@ import sys
 import time
 
 class GaryVee:
-    username = 'garyveedollareighty'
-    password = 'dollareighty'
+    username = 'the_beauty_about_travel'
+    password = 'cubeworld'
 
     hashtags = [
         'wanderlust', 'travels', 'travel', 'explore', 'exploring', 
@@ -21,10 +21,10 @@ class GaryVee:
 
     links = []
 
-    price = 0.0
+    price = 0.2
 
     def __init__(self):
-        self.browser = webdriver.Firefox()
+        self.browser = webdriver.Google Chrome()
         self.login()
         self.hustle()
 
